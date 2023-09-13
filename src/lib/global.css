@@ -72,3 +72,17 @@ input[disabled] {
   background-color: var(--bg);
   color: var(--principal-2);
 }
+
+/* Classes */
+.container {
+  margin: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media(max-width: 1000px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
